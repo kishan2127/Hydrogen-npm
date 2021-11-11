@@ -2,6 +2,7 @@ import {useCartLinesTotalQuantity} from '@shopify/hydrogen/client';
 
 import CartIcon from './CartIcon';
 
+
 export default function CartIconWithItems() {
   const itemCount = useCartLinesTotalQuantity();
 
